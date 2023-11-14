@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mobcontrol_crafting:barrier"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobcontrol_crafting:crafted/barrier"
+    }
+}

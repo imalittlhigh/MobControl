@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                    "tag": "mobcontrol:heads",
+                  "nbt": "{SkullOwner:{Name:\"%moco.barrier\"}}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mobcontrol:barrier/build/raycast/init"
+    }
+  }
+  
