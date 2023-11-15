@@ -5,6 +5,7 @@
  # Created by imalittlhigh.
 ##
 item modify entity @s weapon.mainhand mobcontrol:remove_one
+advancement grant @s only mobcontrol:visual/upgrade_barrier
 
 playsound minecraft:block.bell.use block @a ~ ~ ~
 

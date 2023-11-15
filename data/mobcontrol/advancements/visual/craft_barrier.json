@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "display": {
+    "icon": {
+      "item": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": "Personal Bubble",
+    "description": "Craft a Mob Barrier",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mobcontrol_crafting:barrier"
+      }
+    }
+  }
+}

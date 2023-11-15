@@ -1,0 +1,23 @@
+{
+  "parent": "mobcontrol:visual/craft_barrier",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Isnt this Peaceful?",
+    "description": "Set a Mob Barrier to its highest range",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}
