@@ -33,6 +33,7 @@ tag @s remove moco.exclude.vex
 tag @s remove moco.exclude.vindicator
 tag @s remove moco.exclude.witch
 tag @s remove moco.exclude.zoglin
+tag @s remove moco.exclude.enderman
 
 execute if block ~1 ~-1 ~ #mobcontrol:heads_all positioned ~1 ~-1 ~ run function mobcontrol:barrier/operation/exclusion/head
 execute if block ~-1 ~-1 ~ #mobcontrol:heads_all positioned ~-1 ~-1 ~ run function mobcontrol:barrier/operation/exclusion/head

@@ -35,6 +35,7 @@ execute as @s[tag=moco.exclude.vex] run tag @e[type=vex,distance=..20] remove mo
 execute as @s[tag=moco.exclude.vindicator] run tag @e[type=vindicator,distance=..20] remove moco.mob.remove
 execute as @s[tag=moco.exclude.witch] run tag @e[type=witch,distance=..20] remove moco.mob.remove
 execute as @s[tag=moco.exclude.zoglin] run tag @e[type=zoglin,distance=..20] remove moco.mob.remove
+execute as @s[tag=moco.exclude.enderman] run tag @e[type=enderman,distance=..10] remove moco.mob.remove
 
 execute as @e[type=#mobcontrol:hostile,tag=!moco.mob.spawned,distance=..20,tag=moco.mob.remove] at @s run function mobcontrol:barrier/operation/mobs/despawn
 execute as @e[tag=moco.mob.remove] at @s run function mobcontrol:barrier/operation/mobs/push

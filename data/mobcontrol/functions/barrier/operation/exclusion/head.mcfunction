@@ -34,3 +34,4 @@ execute if block ~ ~ ~ player_wall_head{SkullOwner:{Name:"%moco.vex_head"}} run 
 execute if block ~ ~ ~ player_wall_head{SkullOwner:{Name:"%moco.vindicator_head"}} run tag @s add moco.exclude.vindicator
 execute if block ~ ~ ~ player_wall_head{SkullOwner:{Name:"%moco.witch_head"}} run tag @s add moco.exclude.witch
 execute if block ~ ~ ~ player_wall_head{SkullOwner:{Name:"%moco.zoglin_head"}} run tag @s add moco.exclude.zoglin
+execute if block ~ ~ ~ player_wall_head{SkullOwner:{Name:"%moco.enderman_head"}} run tag @s add moco.exclude.enderman
